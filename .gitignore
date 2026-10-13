@@ -1,0 +1,21 @@
+# Binaries and build outputs
+main
+bin/
+dist/
+
+# Go workspaces and vendor folders
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
