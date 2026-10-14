@@ -2,14 +2,14 @@
 main
 bin/
 dist/
-
-# Go workspaces and vendor folders
-vendor/
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+
+# Go workspaces and vendor folders
+vendor/
 
 # IDE / Editor specific files
 .idea/
@@ -17,5 +17,15 @@ vendor/
 *.swp
 *.swo
 
-# Environment variables
+# Environment variables & secret keys
 .env
+*.pem
+*.key
+
+# Kubernetes local debugging files or secret overrides
+*.local.yaml
+kubeconfig*
+
+# OS specific files
+.DS_Store
+Thumbs.db
